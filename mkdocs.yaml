@@ -1,0 +1,65 @@
+site_name: Spotify — Data Governance Framework
+site_description: Cadre de gouvernance des données pour Spotify - qualité, conformité, architecture, rôles et plan pilote
+site_author: Frédéric
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Accueil: index.md
+  - Cadre global:
+      - Vue d'ensemble: framework/main.md
+  - Piliers de la gouvernance:
+      - Qualité des données: pillars/quality.md
+      - Conformité réglementaire: pillars/regulatory.md
+      - Architecture des données: pillars/architecture.md
+      - Rôles et responsabilités: pillars/roles.md
+      - Sécurité des données: pillars/security.md
+  - Mise en œuvre:
+      - Plan pilote: implementation/pilot.md
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/spotify
+      link: https://www.spotify.com 
