@@ -4,22 +4,22 @@ Aligning Data Strategy with Business Growth, Compliance, and Innovation
 
 ## Objective
 
-This pilot establishes Spotify's Data Governance Framework within a controlled scope, identifying challenges, refining processes, and preparing for enterprise-wide scaling. The focus is on proving the framework's effectiveness in improving data quality, compliance, and cross-team collaboration before full deployment.
+This pilot establishes Spotify's Data Governance Framework within a controlled scope, identifying challenges, refining processes, and preparing for enterprise-wide scaling. The focus is on proving the framework's effectiveness in improving data quality, architecture, compliance, and cross-team collaboration before full deployment.
 
 ## Scope
 
 The pilot will be deployed in the Marketing department, focused on user engagement data:
 
-- User behavior logs
+- User behavior logs;
 
-- Campaign performance metrics
+- Campaign performance metrics;
 
-- Personalization data
+- Personalization data.
 
 ## Pilot Phases & Timeline
 
 | Phase | Duration | Key Activities | Success Metrics |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **1. Foundations** | Months 0–3 | Draft Spotify's Data Governance Policy (aligned with global standards) | Policy approved by CDO and Legal team |
 | | | Assign CDO and Data Stewards; formalize the Data Governance Committee (Legal, Engineering, Marketing, Product) | Committee chartered; roles documented in Collibra |
 | | | Pilot kickoff: test framework with Marketing (focus: user data for targeted campaigns) | Pilot scope and KPIs defined |
@@ -172,12 +172,3 @@ Feedback mechanisms:
 - Update the Data Governance Policy based on pilot results and stakeholder feedback, addressing any gaps or inefficiencies identified
 
 *Prepared by Frederic LAGNIEZ | 10/07/2026 | Project Manager | Pilot report delivered; framework approved for scaling.*
-
-
-
-  - Document data lineage (origin, usage, ownership) in Collibra.
-
-### Ensure Global Regulatory Compliance
-
-- Protect user privacy through data minimization, anonymization, access/request management and access controls.
-- Build trust via transparent data practices (e.g., user-controlled personalization settings).

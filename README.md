@@ -1,4 +1,8 @@
-# Mkdocs
+# Projet spotify
+
+## Documentation sur Mkdocs
+
+### Installation
 
 Installer les paquets nécessaires en paquet système (Python et pip) :
 
@@ -12,6 +16,13 @@ Installer Mkdocs :
 ```bash
 pip3 install mkdocs
 ```
+
+ou
+
+```
+sudo apt install mkdocs
+```
+
 Vérifier que l'installation a réussi :
 
 ```bash
@@ -29,4 +40,10 @@ Verifier l'installation:
 ```bash
 python3 -c "import material; print('material OK')"
 python3 -c "import pymdownx; print('pymdownx OK')"
+```
+
+### Deploiement
+
+```bash
+mkdocs serve
 ```
